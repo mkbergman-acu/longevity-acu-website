@@ -1,0 +1,73 @@
+body { 
+	background-image: url("media/ricepaper_v3/ricepaper_v3.png");
+	padding-top: 38px; 
+	padding-bottom: 50px;
+}
+
+.navbar {
+	background-image: url("media/ricepaper_v3/ricepaper_v3.png");
+}
+
+.navbar a {
+  color: #A94F46;
+  font-size: 13px;
+  font-family: 'PT Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.nav-pills > li.active > a:visited {
+	color: #F7F2E0;
+    background-color: #A94F46;
+}
+
+.nav-pills > li > a:hover {
+	color: #F7F2E0;
+    background-color: #A94F46;
+}
+
+.jumbotron {
+	position: relative;
+	background: url("http://uploads7.wikiart.org/images/katsushika-hokusai/fuji-mountains-in-clear-weather-1831.jpg");
+	background-size: 1700px auto;
+	background-position: 75% 20%;
+	background-repeat: no-repeat;
+    background-attachment: relative;
+    height: 375px;
+}
+
+.jumbotron h1 {
+	font-family: 'PT Sans', sans-serif;
+	color: #A94F46;
+	text-shadow: 2px 2px #f6eceb;
+	font-weight: bold;
+	margin: 50px -25px 0px;
+}
+
+.jumbotron small {
+	color: #A94F46;
+	text-shadow: 2px 2px #f6eceb;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+}
+
+.row {
+	position: relative;
+	top: 25px;
+}
+
+.location {
+	position: inherit;
+	font-family: 'PT Sans', sans-serif;
+}
+
+.location-map iframe {
+	float: left;
+	margin: 0px 25px 50px;
+	max-width: 80%;
+	box-shadow: 1px 1px 15px black;
+}
+
+.details {
+	color: #333333;
+	margin: 50px 20px 0px;
+}
